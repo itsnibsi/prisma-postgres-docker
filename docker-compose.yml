@@ -17,3 +17,6 @@ services:
       POSTGRES_DB: data
     volumes:
       - db:/var/lib/postgresql/data
+
+volumes:
+  db:
